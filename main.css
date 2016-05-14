@@ -1,32 +1,160 @@
-body, html {
+body , html {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
+    
 }
-body {
-        background-color: #DADADA;
+
+body{
+    font-size: 14px;
+    background-color: #DADADA;
 }
+
 body, p {
-    line-height: 1.4285em;
+
 }
-.MainBox {
-    margin-left: auto!important;
-    margin-right: auto!important;
+
+
+.mainBox {
+    width: 85%;
+    margin: auto;
     padding-top: 100px;
-    box-sizing: inherit;
-    display: flex;
+    background-color: #DADADA;
+    
 
 }
-.LeftBox {
-    width: 68.75%!important;
-    border 3px solid black;
+.mainLeft {
+    margin: 0;
+    width: 62%; 
+    display: inline-block;
+    padding: 1em;
+}
+.mainRight {
+    margin: 0;
+    width:  32%;
     display: block;
-    padding: 14px;
-    background-color: rgb(255, 255, 255);
+    float: right;
+    padding: 1em;
+}
+
+.leftBox {
+
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    
 
 }
-.RightBox {
-    width: 31.25%!important;
-    border 3px solid black;
+.rightBox {
+
+    background: #fff; 
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+
+}
+
+.addBox {
+
+}
+.input {
+
+}
+ input{
+
+}
+.addButton {
+    padding: 1em 1em 1.15em; 2px 4px;
+    border-radius: 10em;
+    vertical-align: baseline;
+    opacity: 45%;
+}
+
+plusButton {
+    background-color: red;
+    
+}
+
+minustButton {
+    background-color: green;
+} 
+.blockM {
+    padding: 1em;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid rgba(34,36,38,.15);
+
+}
+
+div.lable {
+    width: 25%!important;
     display: block;
-    padding: 14px;
-    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.calcButtons {
+    width: 37.5%!important;
+    display: block;
+    float: left;
+
+}
+
+.spareButton {
+        width: 37.5%!important;
+}
+
+.numOfProd {
+    padding: .5833em .833em;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: .28571429rem;
+    margin: 0 .14285714em;
+    background-color: #E8E8E8;
+}
+
+.plusButton {
+    background-color: #DB2828;
+    
+}
+
+.minustButton {
+    background-color: #16ab39;
+}
+
+.buy-button {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: 1em 2em 1.15em;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+}
+.deleteBttn {
+        cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: 1em 2em 1.15em;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+
+}
+.remove icon {
+    
 }

@@ -8,118 +8,106 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-    <div class="MainBox">
-        <div class="LeftBox">
-            <div class="ui segment form">
-                <div class="ui action fluid input new-item">
-                    <input type="text" placeholder="Назва товару">
-                    <button class="ui button primary">Додати</button>
-                </div>
-            </div>
-            <div class="ui segment item-row state-not-bought" data-class="edit-mode" style="display: block;">
-                <div class="column four wide title-cell">
-                    <span class="title not-bought">Помідори</span> 
-                    <span class="title bought">Помідори</span>
-                    <div class="ui mini input title-edit">
-                        <input type="text" placeholder="Нова назва">
+    <div class="mainBox">
+        <div class="mainLeft">
+            <div class="leftBox">
+                <div class="blockM form">
+                    <div class="ui action fluid input new-item">
+                        <input type="text" placeholder="Назва товару">
+                        <button class="ui button primary">Додати</button>
                     </div>
                 </div>
-                <div class="column six wide add-buttons">
-                    <button class="circular mini ui button icon red minus-button" disabled="">
-                        <i class="minus icon"></i>
-                    </button> 
-                    <span class="ui label count-label">1</span> 
-                    <button class="circular mini ui button icon green plus-button">
-                        <i class="plus icon"></i>
-                    </button>
-                </div>
-                <div class="column six wide last-buttons">
-                    <button class="mini ui button buy-button">Куплено</button> 
-                    <button class="mini ui button unbuy-button">Не куплено</button> 
-                    <button class="mini ui button icon red delete-button" title="Видалити">
-                        <i class="remove icon"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="ui segment item-row state-not-bought" data-class="edit-mode" style="display: block;">
-                <div class="column four wide title-cell">
-                    <span class="title not-bought">Печиво</span> 
-                    <span class="title bought">Печиво</span>
-                    <div class="ui mini input title-edit">
-                        <input type="text" placeholder="Нова назва">
+                <div class="blockM prodLine state-not-bought" style="display: block;">
+                    <div class="lable">
+                        <span class="prodName">Помідори</span>
+                    </div>
+                    <div class="calcButtons">
+                        <button class="addButton minustButton" disabled="">
+                            <i class="minus icon"></i>
+                        </button> 
+                        <span class="numOfProd">1</span> 
+                        <button class="addButton plusButton">
+                            <i class="plus icon"></i>
+                        </button>
+                    </div>
+                    <div class="spareButtons">
+                        <button class=" buy-button">Куплено</button>  
+                        <button class="deleteBttn" title="Видалити">
+                            <i class="remove icon"></i>
+                        </button>
                     </div>
                 </div>
-                <div class="column six wide add-buttons">
-                    <button class="circular mini ui button icon red minus-button" disabled="">
-                        <i class="minus icon"></i>
-                    </button> 
-                    <span class="ui label count-label">1</span>
-                    <button class="circular mini ui button icon green plus-button">
-                        <i class="plus icon"></i>
-                    </button>
-                </div>
-                <div class="column six wide last-buttons">
-                    <button class="mini ui button buy-button">Куплено</button> 
-                    <button class="mini ui button unbuy-button">Не куплено</button> 
-                    <button class="mini ui button icon red delete-button" title="Видалити">
-                        <i class="remove icon"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="ui segment item-row state-not-bought" data-class="edit-mode" style="display: block;">
-                <div class="column four wide title-cell">
-                    <span class="title not-bought">Сир</span> 
-                    <span class="title bought">Сир</span>
-                    <div class="ui mini input title-edit">
-                        <input type="text" placeholder="Нова назва">
+                <div class="blockM prodLine state-not-bought" style="display: block;">
+                    <div class="lable">
+                        <span class="prodName">Печиво</span>
+                    </div>
+                    <div class="calcButtons">
+                        <button class="addButton minustButton" disabled="">
+                            <i class="minus icon"></i>
+                        </button> 
+                        <span class="numOfProd">1</span> 
+                        <button class="addButton plusButton">
+                            <i class="plus icon"></i>
+                        </button>
+                    </div>
+                    <div class="spareButtons">
+                        <button class="mini ui button buy-button">Куплено</button>  
+                        <button class="deleteBttn" title="Видалити">
+                            <i class="remove icon"></i>
+                        </button>
                     </div>
                 </div>
-                <div class="column six wide add-buttons">
-                    <button class="circular mini ui button icon red minus-button" disabled="">
-                        <i class="minus icon"></i>
-                    </button> 
-                    <span class="ui label count-label">1</span> 
-                    <button class="circular mini ui button icon green plus-button">
-                        <i class="plus icon"></i>
-                    </button>
-                </div>
-                <div class="column six wide last-buttons">
-                    <button class="mini ui button buy-button">Куплено</button> 
-                    <button class="mini ui button unbuy-button">Не куплено</button> 
-                    <button class="mini ui button icon red delete-button" title="Видалити">
-                        <i class="remove icon"></i>
-                    </button>
+                <div class="blockM prodLine state-not-bought" style="display: block;">
+                    <div class="lable">
+                        <span class="prodName">Сир</span>
+                    </div>
+                    <div class="calcButtons">
+                        <button class="addButton minustButton" disabled="">
+                            <i class="minus icon"></i>
+                        </button> 
+                        <span class="numOfProd">1</span> 
+                        <button class="addButton plusButton">
+                            <i class="plus icon"></i>
+                        </button>
+                    </div>
+                    <div class="spareButtons">
+                        <button class="mini ui button buy-button">Куплено</button>  
+                        <button class="deleteBtt" title="Видалити">
+                            <i class="remove icon"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="RightBox">
-            <div class="ui segment">
-                <h3>Залишилося</h3>
-            </div>
-            <div class="ui segment">
-                <div class="stats-not-bought">
-                    <span class="ui mini label stats-label">
-                        <span class="title">Помідори</span> 
-                        <span class="ui mini orange circular label count">1</span>
-                    </span>
-                    <span class="ui mini label stats-label">
-                        <span class="title">Печиво</span> 
-                        <span class="ui mini orange circular label count">1</span>
-                    </span>
-                    <span class="ui mini label stats-label">
-                        <span class="title">Сир</span> 
-                        <span class="ui mini orange circular label count">1</span>
-                    </span>
+        <div class="mainRight">
+            <div class="rightBox">
+                <div class="blockM">
+                    <h3>Залишилося</h3>
                 </div>
-            </div>
-            <div class="ui segment">
-                <h3>Куплено</h3>
-            </div>
-            <div class="ui segment">
-                <div class="stats-bought"></div>
+                <div class="blockM">
+                    <div class="stats-not-bought">
+                        <span class="ui mini label stats-label">
+                            <span class="title">Помідори</span> 
+                            <span class="ui mini orange circular label count">1</span>
+                        </span>
+                        <span class="ui mini label stats-label">
+                            <span class="title">Печиво</span> 
+                            <span class="ui mini orange circular label count">1</span>
+                        </span>
+                        <span class="ui mini label stats-label">
+                            <span class="title">Сир</span> 
+                            <span class="ui mini orange circular label count">1</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="blockM">
+                    <h3>Куплено</h3>
+                </div>
+                <div class="blockM">
+                    <div class="stats-bought"></div>
+                </div>
             </div>
         </div>
     </div>
-    
 </body>
 </html>
