@@ -6,7 +6,7 @@ body , html {
 }
 
 body{
-    font-size: 14px;
+
     background-color: #DADADA;
 }
 
@@ -56,21 +56,90 @@ body, p {
 }
 
 .addBox {
-
+    border-top: none;
+    margin-top: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    top: 0;
+    border-radius: .28571429rem .28571429rem 0 0;
 }
 .input {
+    display: flex;
+    font-size: 1em;
+    position: relative;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+    
+}
 
+.buttonAdder {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    margin: 0 .25em 0 0;
+    padding: 1em 2em 1.15em;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
+    border-bottom-right-radius: .4em;
+    border-top-right-radius: .4em;
+    background-color: #2185D0;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+    
+    
+    
+}
+
+.buttonAdder:hover {
+    background-color: #175d91;
 }
  input{
-
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-right-color: transparent!important;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+    line-height: 1.2142em;
+    padding: .67861429em 1em;
+    font-size: 1em;
+    background: #FFF;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    width: 100%;
 }
 .addButton {
-    padding: 1em 1em 1.15em; 2px 4px;
+    max-width: 1.5em;
+    max-height: 1.5em;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: 1em 2em 1.15em;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
     border-radius: 10em;
-    vertical-align: baseline;
-    opacity: 45%;
+    
 }
 
+img {
+    text-align: center;
+    max-width: 1em;
+    max-height: 1em;
+}
 plusButton {
     background-color: red;
     
@@ -111,6 +180,8 @@ div.lable {
     border-radius: .28571429rem;
     margin: 0 .14285714em;
     background-color: #E8E8E8;
+    vertical-align: middle;
+    width: auto;
 }
 
 .plusButton {
@@ -145,16 +216,35 @@ div.lable {
     outline: 0;
     border: none;
     vertical-align: middle;
-    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
-    color: rgba(0,0,0,.6);
-    margin: 0 .25em 0 0;
-    padding: 1em 2em 1.15em;
+    background-color: #DB2828;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+    padding: 1em;
     text-shadow: none;
     line-height: 1em;
     text-align: center;
     border-radius: .4em;
 
 }
-.remove icon {
-    
+
+
+.deleteBttn:hover {
+    background-color: #af2020;
+}
+
+
+.miniOrangeCircle {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.142857em;
+    min-width: 2em;
+    min-height: 2em;
+    padding: .5em!important;
+    text-align: center;
+    font-size: .64285714rem;
+    border-radius: 500em;
+    background-color: #F2711C!important;
+    border-color: #F2711C!important;
+    color: #FFF!important;
 }
