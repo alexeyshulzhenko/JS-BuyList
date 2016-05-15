@@ -11,7 +11,7 @@ body{
 }
 
 body, p {
-
+        line-height: 1.4285em;
 }
 
 
@@ -116,18 +116,14 @@ body, p {
     width: 100%;
 }
 .addButton {
-    max-width: 1.5em;
-    max-height: 1.5em;
     cursor: pointer;
     display: inline-block;
     min-height: 1em;
     outline: 0;
     border: none;
     vertical-align: middle;
-    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
-    color: rgba(0,0,0,.6);
     margin: 0 .25em 0 0;
-    padding: 1em 2em 1.15em;
+    padding: 1em;
     text-shadow: none;
     line-height: 1em;
     text-align: center;
@@ -136,7 +132,6 @@ body, p {
 }
 
 img {
-    text-align: center;
     max-width: 1em;
     max-height: 1em;
 }
@@ -166,6 +161,7 @@ div.lable {
     width: 37.5%!important;
     display: block;
     float: left;
+    text-align: center;
 
 }
 
@@ -188,9 +184,20 @@ div.lable {
     background-color: #DB2828;
     
 }
+ 
+.plusButton:hover {
+    background-color: #af2020;
+}
 
+.BttnDiable {
+    opacity: .45!important;
+}
 .minustButton {
     background-color: #16ab39;
+}
+
+.minustButton:hover {
+    background-color: #11882d;
 }
 
 .buy-button {
@@ -200,14 +207,16 @@ div.lable {
     outline: 0;
     border: none;
     vertical-align: middle;
-    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
-    color: rgba(0,0,0,.6);
     margin: 0 .25em 0 0;
     padding: 1em 2em 1.15em;
     text-shadow: none;
     line-height: 1em;
     text-align: center;
     border-radius: .4em;
+}
+
+.buy-button:hover {
+    background-color: #adadad;
 }
 .deleteBttn {
         cursor: pointer;
@@ -247,4 +256,16 @@ div.lable {
     background-color: #F2711C!important;
     border-color: #F2711C!important;
     color: #FFF!important;
+}
+
+.prodName {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.lable {
+    text-align: bottom;
+}
+
+.spareButtons {
+    text-align: right;
 }
