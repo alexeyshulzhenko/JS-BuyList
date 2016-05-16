@@ -35,6 +35,7 @@ body, p {
     display: block;
     float: right;
     padding: 1em;
+    display: inline-flex;
 }
 
 .leftBox {
@@ -194,17 +195,19 @@ div.lable {
     background-color: #af2020;
 }
 
-.BttnDiable {
-    opacity: .45!important;
-}
-.minustButton {
+
+
+.minusButton {
     background-color: #16ab39;
 }
 
-.minustButton:hover {
+.minusButton:hover {
     background-color: #11882d;
 }
 
+.minusButton:disabled {
+    opacity: .45!important;
+}
 .buy-button {
     cursor: pointer;
     display: inline-block;
