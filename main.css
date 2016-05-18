@@ -102,7 +102,7 @@ body, p {
  input{
     border-top-right-radius: 0!important;
     border-bottom-right-radius: 0!important;
-    border-right-color: transparent!important;
+    border-right-color: transparent;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     margin: 0;
     outline: 0;
@@ -196,10 +196,10 @@ div.lable {
 }
 
 
-
 .minusButton {
     background-color: #16ab39;
 }
+
 
 .minusButton:hover {
     background-color: #11882d;
@@ -210,7 +210,8 @@ div.lable {
 }
 .buy-button {
     cursor: pointer;
-    display: inline-block;
+    display: inline;
+    position: relative;
     min-height: 1em;
     outline: 0;
     border: none;
@@ -223,6 +224,11 @@ div.lable {
     border-radius: .4em;
     border-bottom: 3px solid;
     border-bottom-color: #797979; 
+    
+}
+
+.not-buy {
+    display: none;
 }
 
 .buy-button:hover {
@@ -253,6 +259,20 @@ div.lable {
 }
 
 
+.bougtnList {
+    display: none;
+}
+
+.editer {
+    border-bottom-right-radius: .28571429rem!important;
+    border-top-right-radius: .28571429rem!important;
+    border-right-color:1px solid rgba(34,36,38,.15)!important;
+    box-shadow: 0 0 0 0 transparent inset;
+}
+
+.editer:disabled {
+    border: none;
+}
 .deleteBttn:hover {
     background-color: #af2020;
 }
