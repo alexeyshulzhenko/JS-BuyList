@@ -175,6 +175,7 @@ div.lable {
 }
 
 .numOfProd {
+    
     padding: .5833em .833em;
     font-weight: 700;
     border: 0 solid transparent;
@@ -184,6 +185,8 @@ div.lable {
     vertical-align: middle;
     width: auto;
     text-align: center;
+    margin-top: 2px;
+    display: inline-block;
 }
 
 .plusButton {
@@ -268,6 +271,7 @@ div.lable {
     border-top-right-radius: .28571429rem!important;
     border-right-color:1px solid rgba(34,36,38,.15)!important;
     box-shadow: 0 0 0 0 transparent inset;
+    text-decoration: none;
 }
 
 .editer:disabled {

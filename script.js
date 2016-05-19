@@ -26,7 +26,7 @@ $(function(){
             '</span>'
         );
         
-        var thirdOne =$( '<span class="numOfProd bougtnList">'+'<span class="title">'+title+'</span> '+
+        var thirdOne =$( '<span class="numOfProd bougtnList">'+'<span class="title"><del>'+title+'</del></span> '+
             '<span class="miniOrangeCircle label count">1</span>' +
             '</span>'
         );
@@ -42,6 +42,7 @@ $(function(){
             firstOne.find('.not-buy').show();
             firstOne.find('.deleteBttn').hide();
             firstOne.find('.editer').attr('disabled',true);
+            firstOne.find('.editer').css('text-decoration', 'line-through');
             secondOne.hide();
             thirdOne.show();
                 
@@ -87,6 +88,7 @@ $(function(){
             firstOne.find('.deleteBttn').show();
             firstOne.find('.edit').show();
             firstOne.find('.edit').attr('disabled',false);
+            firstOne.find('.editer').css('text-decoration', 'none');
             secondOne.show();
             thirdOne.hide();
         });
